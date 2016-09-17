@@ -1,0 +1,89 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	Makefile	/^CC=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-Wall $/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS= -I.\/include -I\/usr\/local\/include\/hiredis$/;"	m
+FIELD_ID_SIZE	include/redis_op.h	20;"	d
+LIBS	Makefile	/^LIBS= -lhiredis$/;"	m
+LOG	include/make_log.h	10;"	d
+LOG	include/make_log.h	15;"	d
+RCOMMANDS	include/redis_op.h	/^typedef char (*RCOMMANDS)[REDIS_COMMAND_SIZE];\/* redis 存放批量 命令字符串数组类型 *\/$/;"	t
+REDIS_COMMAND_SIZE	include/redis_op.h	19;"	d
+REDIS_LOG_MODULE	include/redis_op.h	16;"	d
+REDIS_LOG_PROC	include/redis_op.h	17;"	d
+RFIELDS	include/redis_op.h	/^typedef char (*RFIELDS)[FIELD_ID_SIZE];        \/* redis hash表存放批量field字符串数组类型 *\/$/;"	t
+RVALUES	include/redis_op.h	/^typedef char (*RVALUES)[VALUES_ID_SIZE];    \/* redis 表存放批量value字符串数组类型 *\/$/;"	t
+VALUES_ID_SIZE	include/redis_op.h	21;"	d
+_MAKE_LOG_H	include/make_log.h	2;"	d
+_REDIS_OP_H_	include/redis_op.h	7;"	d
+ca_log_lock	make_log.c	/^pthread_mutex_t ca_log_lock=PTHREAD_MUTEX_INITIALIZER;$/;"	v
+dumpmsg_to_file	include/make_log.h	/^int dumpmsg_to_file(char *module_name, char *proc_name, const char *filename,$/;"	p	signature:(char *module_name, char *proc_name, const char *filename, int line, const char *funcname, char *fmt, ...)
+dumpmsg_to_file	make_log.c	/^int dumpmsg_to_file(char *module_name, char *proc_name, const char *filename,$/;"	f	signature:(char *module_name, char *proc_name, const char *filename, int line, const char *funcname, char *fmt, ...)
+main	Makefile	/^main=main.bin$/;"	m
+main	main.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+make_hmset_command	redis_op.c	/^static char* make_hmset_command(char* key, unsigned int element_num, RFIELDS fields, RVALUES values)$/;"	f	file:	signature:(char* key, unsigned int element_num, RFIELDS fields, RVALUES values)
+make_path	include/make_log.h	/^int make_path(char *path, char *module_name, char *proc_name);$/;"	p	signature:(char *path, char *module_name, char *proc_name)
+make_path	make_log.c	/^int make_path(char *path, char *module_name, char *proc_name)$/;"	f	signature:(char *path, char *module_name, char *proc_name)
+obj	Makefile	/^obj = $(patsubst %.c, %.o, $(src))$/;"	m
+out_put_file	include/make_log.h	/^int out_put_file(char *path, char *buf);$/;"	p	signature:(char *path, char *buf)
+out_put_file	make_log.c	/^int out_put_file(char *path, char *buf)$/;"	f	signature:(char *path, char *buf)
+rop_connectdb	include/redis_op.h	/^redisContext* rop_connectdb(char *ip_str, char* port_str, char *pwd);$/;"	p	signature:(char *ip_str, char* port_str, char *pwd)
+rop_connectdb	redis_op.c	/^redisContext* rop_connectdb(char *ip_str, char* port_str, char *pwd)$/;"	f	signature:(char *ip_str, char* port_str, char *pwd)
+rop_connectdb_nopwd	include/redis_op.h	/^redisContext* rop_connectdb_nopwd(char *ip_str, char* port_str);$/;"	p	signature:(char *ip_str, char* port_str)
+rop_connectdb_nopwd	redis_op.c	/^redisContext* rop_connectdb_nopwd(char *ip_str, char* port_str)$/;"	f	signature:(char *ip_str, char* port_str)
+rop_connectdb_timeout	include/redis_op.h	/^redisContext* rop_connectdb_timeout(char* ip_str, char *port_str, struct timeval *timeout);$/;"	p	signature:(char* ip_str, char *port_str, struct timeval *timeout)
+rop_connectdb_timeout	redis_op.c	/^redisContext* rop_connectdb_timeout(char* ip_str, char *port_str, struct timeval *timeout)$/;"	f	signature:(char* ip_str, char *port_str, struct timeval *timeout)
+rop_connectdb_unix	include/redis_op.h	/^redisContext* rop_connectdb_unix(char *sock_path, char *pwd);$/;"	p	signature:(char *sock_path, char *pwd)
+rop_connectdb_unix	redis_op.c	/^redisContext* rop_connectdb_unix(char *sock_path, char *pwd)$/;"	f	signature:(char *sock_path, char *pwd)
+rop_create_or_replace_hash_table	include/redis_op.h	/^int rop_create_or_replace_hash_table(redisContext* conn,$/;"	p	signature:(redisContext* conn, char* key, unsigned int element_num, RFIELDS fields, RVALUES values)
+rop_create_or_replace_hash_table	redis_op.c	/^int rop_create_or_replace_hash_table(redisContext* conn,$/;"	f	signature:(redisContext* conn, char* key, unsigned int element_num, RFIELDS fields, RVALUES values)
+rop_del_key	include/redis_op.h	/^int rop_del_key(redisContext *conn, char *key);$/;"	p	signature:(redisContext *conn, char *key)
+rop_del_key	redis_op.c	/^int rop_del_key(redisContext *conn, char *key)$/;"	f	signature:(redisContext *conn, char *key)
+rop_disconnect	include/redis_op.h	/^void rop_disconnect(redisContext* conn);$/;"	p	signature:(redisContext* conn)
+rop_disconnect	redis_op.c	/^void rop_disconnect(redisContext* conn)$/;"	f	signature:(redisContext* conn)
+rop_flush_database	include/redis_op.h	/^int rop_flush_database(redisContext *conn);$/;"	p	signature:(redisContext *conn)
+rop_flush_database	redis_op.c	/^int rop_flush_database(redisContext *conn)$/;"	f	signature:(redisContext *conn)
+rop_get_list_cnt	include/redis_op.h	/^int rop_get_list_cnt(redisContext *conn, char *key);$/;"	p	signature:(redisContext *conn, char *key)
+rop_get_list_cnt	redis_op.c	/^int rop_get_list_cnt(redisContext *conn, char *key)$/;"	f	signature:(redisContext *conn, char *key)
+rop_get_string	include/redis_op.h	/^int rop_get_string(redisContext *conn, char *key, char value[1024]);$/;"	p	signature:(redisContext *conn, char *key, char value[1024])
+rop_get_string	redis_op.c	/^int rop_get_string(redisContext *conn, char *key,RVALUES value)$/;"	f	signature:(redisContext *conn, char *key,RVALUES value)
+rop_hash_set_append	include/redis_op.h	/^int rop_hash_set_append(redisContext *conn, char *key, RFIELDS fields, RVALUES values, int val_num);$/;"	p	signature:(redisContext *conn, char *key, RFIELDS fields, RVALUES values, int val_num)
+rop_hash_set_append	redis_op.c	/^int rop_hash_set_append(redisContext *conn, char *key, RFIELDS fields, RVALUES values, int val_num)$/;"	f	signature:(redisContext *conn, char *key, RFIELDS fields, RVALUES values, int val_num)
+rop_hincrement_one_field	include/redis_op.h	/^int rop_hincrement_one_field(redisContext *conn, char *key, char *field, unsigned int num);$/;"	p	signature:(redisContext *conn, char *key, char *field, unsigned int num)
+rop_hincrement_one_field	redis_op.c	/^int rop_hincrement_one_field(redisContext *conn, char *key, char *field, unsigned int num)$/;"	f	signature:(redisContext *conn, char *key, char *field, unsigned int num)
+rop_is_key_exist	include/redis_op.h	/^int rop_is_key_exist(redisContext *conn, char* key);$/;"	p	signature:(redisContext *conn, char* key)
+rop_is_key_exist	redis_op.c	/^int rop_is_key_exist(redisContext *conn, char* key)$/;"	f	signature:(redisContext *conn, char* key)
+rop_list_push	include/redis_op.h	/^int rop_list_push(redisContext *conn, char *key, char *value);$/;"	p	signature:(redisContext *conn, char *key, char *value)
+rop_list_push	redis_op.c	/^int rop_list_push(redisContext *conn, char *key, char *value)$/;"	f	signature:(redisContext *conn, char *key, char *value)
+rop_list_push_append	include/redis_op.h	/^int rop_list_push_append(redisContext *conn, char *key, RVALUES values, int val_num);$/;"	p	signature:(redisContext *conn, char *key, RVALUES values, int val_num)
+rop_list_push_append	redis_op.c	/^int rop_list_push_append(redisContext *conn, char *key, RVALUES values, int val_num)$/;"	f	signature:(redisContext *conn, char *key, RVALUES values, int val_num)
+rop_range_list	include/redis_op.h	/^int rop_range_list(redisContext *conn, char *key, int from_pos, int count, RVALUES values, int *get_num);$/;"	p	signature:(redisContext *conn, char *key, int from_pos, int count, RVALUES values, int *get_num)
+rop_range_list	redis_op.c	/^int rop_range_list(redisContext *conn, char *key, int from_pos, int end_pos, RVALUES values, int *get_num)$/;"	f	signature:(redisContext *conn, char *key, int from_pos, int end_pos, RVALUES values, int *get_num)
+rop_redis_append	include/redis_op.h	/^int rop_redis_append(redisContext *conn, RCOMMANDS cmds, int cmd_num);$/;"	p	signature:(redisContext *conn, RCOMMANDS cmds, int cmd_num)
+rop_redis_append	redis_op.c	/^int rop_redis_append(redisContext *conn, RCOMMANDS cmds, int cmd_num)$/;"	f	signature:(redisContext *conn, RCOMMANDS cmds, int cmd_num)
+rop_redis_command	include/redis_op.h	/^int rop_redis_command(redisContext *conn, char *cmd);$/;"	p	signature:(redisContext *conn, char *cmd)
+rop_redis_command	redis_op.c	/^int rop_redis_command(redisContext *conn, char *cmd)$/;"	f	signature:(redisContext *conn, char *cmd)
+rop_selectdatabase	include/redis_op.h	/^int rop_selectdatabase(redisContext *conn, unsigned int db_no);$/;"	p	signature:(redisContext *conn, unsigned int db_no)
+rop_selectdatabase	redis_op.c	/^int rop_selectdatabase(redisContext *conn, unsigned int db_no)$/;"	f	signature:(redisContext *conn, unsigned int db_no)
+rop_set_key_lifecycle	include/redis_op.h	/^int rop_set_key_lifecycle(redisContext *conn, char *key, time_t delete_time);$/;"	p	signature:(redisContext *conn, char *key, time_t delete_time)
+rop_set_key_lifecycle	redis_op.c	/^int rop_set_key_lifecycle(redisContext *conn, char *key, time_t delete_time)$/;"	f	signature:(redisContext *conn, char *key, time_t delete_time)
+rop_set_string	include/redis_op.h	/^int rop_set_string(redisContext *conn, char *key, char *value);$/;"	p	signature:(redisContext *conn, char *key, char *value)
+rop_set_string	redis_op.c	/^int rop_set_string(redisContext *conn, char *key, char *value)$/;"	f	signature:(redisContext *conn, char *key, char *value)
+rop_show_keys	include/redis_op.h	/^void rop_show_keys(redisContext *conn, char* pattern);$/;"	p	signature:(redisContext *conn, char* pattern)
+rop_show_keys	redis_op.c	/^void rop_show_keys(redisContext *conn, char* pattern)$/;"	f	signature:(redisContext *conn, char* pattern)
+rop_test_reply_type	include/redis_op.h	/^void rop_test_reply_type(redisReply *reply);$/;"	p	signature:(redisReply *reply)
+rop_test_reply_type	redis_op.c	/^void rop_test_reply_type(redisReply *reply)$/;"	f	signature:(redisReply *reply)
+rop_trim_list	include/redis_op.h	/^int rop_trim_list(redisContext *conn, char *key, int begin, int end);$/;"	p	signature:(redisContext *conn, char *key, int begin, int end)
+rop_trim_list	redis_op.c	/^int rop_trim_list(redisContext *conn, char *key, int begin, int end)$/;"	f	signature:(redisContext *conn, char *key, int begin, int end)
+rop_zset_get_score	include/redis_op.h	/^int rop_zset_get_score(redisContext *conn, char *key, char *member);$/;"	p	signature:(redisContext *conn, char *key, char *member)
+rop_zset_get_score	redis_op.c	/^int rop_zset_get_score(redisContext *conn, char *key, char *member)$/;"	f	signature:(redisContext *conn, char *key, char *member)
+rop_zset_increment	include/redis_op.h	/^int rop_zset_increment(redisContext *conn, char* key, char* member);$/;"	p	signature:(redisContext *conn, char* key, char* member)
+rop_zset_increment	redis_op.c	/^int rop_zset_increment(redisContext *conn, char* key, char* member)$/;"	f	signature:(redisContext *conn, char* key, char* member)
+rop_zset_increment_append	include/redis_op.h	/^int rop_zset_increment_append(redisContext *conn, char *key, RVALUES values, int val_num);$/;"	p	signature:(redisContext *conn, char *key, RVALUES values, int val_num)
+rop_zset_increment_append	redis_op.c	/^int rop_zset_increment_append(redisContext *conn, char *key, RVALUES values, int val_num)$/;"	f	signature:(redisContext *conn, char *key, RVALUES values, int val_num)
+src	Makefile	/^src = $(wildcard *.c)$/;"	m
+target	Makefile	/^target=$(test_fdfs)  $(main)$/;"	m

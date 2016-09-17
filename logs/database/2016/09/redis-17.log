@@ -1,0 +1,96 @@
+===20160917-185409,rop_connectdb_nopwd[369]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160917-185409,rop_disconnect[525]=== [+][GMS_REDIS]Disconnect SUCCESS!
+
+===20160917-192355,rop_connectdb_nopwd[369]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160917-192440,rop_connectdb_nopwd[369]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160917-192624,rop_connectdb_nopwd[369]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160917-192624,rop_get_string[1079]=== get foo
+
+===20160917-192833,rop_connectdb_nopwd[369]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160917-192833,rop_get_string[1079]=== get foo
+
+===20160917-192833,rop_get_string[1082]=== reply->str not null
+
+===20160917-193119,rop_connectdb_nopwd[369]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160917-193119,rop_get_string[1079]=== get foo
+
+===20160917-193119,rop_get_string[1082]=== reply->str not null
+
+===20160917-193203,rop_connectdb_nopwd[369]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160917-193203,rop_get_string[1079]=== get foo
+
+===20160917-193203,rop_get_string[1082]=== reply->str not null
+
+===20160917-193203,rop_get_string[1083]=== reply->str is nihao
+
+===20160917-193203,rop_disconnect[525]=== [+][GMS_REDIS]Disconnect SUCCESS!
+
+===20160917-193416,rop_connectdb_nopwd[369]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160917-193416,rop_get_string[1079]=== get foo
+
+===20160917-193416,rop_get_string[1082]=== reply->str not null
+
+===20160917-193416,rop_get_string[1083]=== reply->str is nihao
+
+===20160917-193502,rop_connectdb_nopwd[369]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160917-193502,rop_get_string[1079]=== get foo
+
+===20160917-193502,rop_get_string[1082]=== reply->str not null
+
+===20160917-193502,rop_get_string[1083]=== reply->str is nihao
+
+===20160917-193502,rop_disconnect[525]=== [+][GMS_REDIS]Disconnect SUCCESS!
+
+===20160917-193625,rop_connectdb_nopwd[369]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160917-193625,rop_get_string[1079]=== get foo
+
+===20160917-193625,rop_get_string[1082]=== reply->str not null
+
+===20160917-193625,rop_get_string[1083]=== reply->str is nihao
+
+===20160917-193719,rop_connectdb_nopwd[369]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160917-193719,rop_get_string[1079]=== get foo
+
+===20160917-193719,rop_get_string[1082]=== reply->str not null
+
+===20160917-193719,rop_get_string[1083]=== reply->str is nihao
+
+===20160917-193833,rop_connectdb_nopwd[369]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160917-193833,rop_get_string[1079]=== get foo
+
+===20160917-193833,rop_get_string[1082]=== reply->str not null
+
+===20160917-193833,rop_get_string[1083]=== reply->str is nihao
+
+===20160917-193900,rop_connectdb_nopwd[369]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160917-193900,rop_get_string[1079]=== get foo
+
+===20160917-193900,rop_get_string[1082]=== reply->str not null
+
+===20160917-193900,rop_get_string[1083]=== reply->str is nihao
+
+===20160917-194026,rop_connectdb_nopwd[369]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160917-195721,rop_connectdb_nopwd[369]=== [+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+
+===20160917-195721,rop_get_string[1079]=== get foo
+
+===20160917-195721,rop_get_string[1082]=== reply->str not null
+
+===20160917-195721,rop_get_string[1083]=== reply->str is nihao
+
+===20160917-195721,rop_disconnect[525]=== [+][GMS_REDIS]Disconnect SUCCESS!
+
