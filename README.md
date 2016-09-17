@@ -1,1 +1,2 @@
 # redis_op
+此项目封装了redisAPI的基本操作，用户可以直接使用该项目来进行对redis操作
